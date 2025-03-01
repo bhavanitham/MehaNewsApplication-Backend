@@ -178,7 +178,7 @@ const sendNotification = async (email, message) => {
                   <h1 style="color: #333333; line-height: 1.6;">${title}</h1>
                   <p style="color: #333333; line-height: 1.6;">${description}</p> 
                   <div style="text-align: center; margin: 20px 0;">
-                      <a href="http://localhost:5173/" style="background-color: #283593; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 3px; font-size: 14px; font-weight: 500;">
+                      <a href="https://bhava-mehalivenewsapplicationfrontend.netlify.app/" style="background-color: #283593; color: #ffffff; padding: 12px 24px; text-decoration: none; border-radius: 3px; font-size: 14px; font-weight: 500;">
                           Read More
                       </a>
                   </div>
