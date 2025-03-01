@@ -9,7 +9,7 @@ const UserRoute= require("./Routes/UserRoute");
 // CORS configuration
 app.use(cors({
   origin: '*', // Be cautious with this in production
-  methods: ['GET', 'POST', 'PUT'],
+  methods: ['GET', 'POST', 'PUT' ,'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
