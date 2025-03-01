@@ -68,6 +68,10 @@ app.get("/country/:iso", async (req, res) => {
   res.status(result.status).json(result);
 });
 
+app.get("/", async (req, res) => {
+  res.status(200).send("Server Is Online"); 
+});
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, function () {
   console.log(`Server is running at port ${PORT}`);
